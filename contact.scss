@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 
+
 // vars
 
 $mainc: #1481BA;
@@ -16,6 +17,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    font-family: 'Lato', sans-serif;
 }
 
 .hero-container {
@@ -36,17 +38,26 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
+
+        a {
+            text-decoration: none;
+            color: white;
+            padding: 16px 32px;
+            background-color: #034748;
+            border-radius: 3rem;
+            transition: 500ms;
+            margin: 0 1rem;
+
+            &:hover {
+                background-color: #fff;
+                color: #034748;
+            }
+        }
     }
 
-    a {
-        text-decoration: none;
-        color: white;
-        padding: 16px 32px;
-        background-color: #034748;
-        border-radius: 3rem;
-        transition: 500ms;
-        margin: 0 1rem;
-
+    main {
+        width: 90%;
+        
     }
 
 }
