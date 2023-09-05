@@ -19,6 +19,7 @@
              <main>
                 <form action="thanks.html" method="post">
                     <fieldset>
+                        <div class="info">
                         <label>Name
                             <input type="text" name="name" required>
                         </label>Email
@@ -32,14 +33,25 @@
                                 <option value="4">CAN</option>
                             </select>
                         </label>
+                    </div>
                     </fieldset>
                     <fieldset class="selection">
-                        <p>What department do you want to contact?</p>
                     <div class="check-container">
+                        <p>What department do you want to contact?</p>
                         <input class="checkbox" type="checkbox">News
                         <input class="checkbox" type="checkbox">Sports
                     </div>
+                        <div class="radio">
+                            <p>Do you want a replay?</p>
+                            <label>Yes
+                                <input type="radio">
+                            </label>
+                            <label>No
+                                <input type="radio">
+                            </label>
+                        </div>
                     </fieldset>
+                    <button id="#thanks">Submit</button>
                 </form>
             </main>
         </div>

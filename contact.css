@@ -56,10 +56,23 @@ body {
 }
 .hero-container main {
   width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .hero-container main fieldset {
-  padding: 1rem 8px;
+  margin: 1rem auto;
+  padding: 12px 6px;
 }
-.hero-container main fieldset label {
-  padding: 16px 0;
+.hero-container main fieldset .info {
+  padding: 10px auto;
+}
+.hero-container main fieldset .check-container {
+  display: flex;
+  flex-direction: column;
+}
+.hero-container main fieldset .radio {
+  display: flex;
+  flex-direction: column;
 }/*# sourceMappingURL=contact.css.map */

@@ -67,12 +67,28 @@ body {
 
     main {
         width: 90%;
-            fieldset {
-                padding: 1rem 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+                
+        fieldset {
+            margin: 1rem auto;
+            padding: 12px 6px;
 
-                label {
-                    padding: 16px 0;
-                }
+            .info {
+                padding: 10px auto;
             }
+
+            .check-container {
+                display: flex;
+                flex-direction: column;
             }
-}
+            
+            .radio {
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    }
+ }
