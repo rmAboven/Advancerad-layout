@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #1481BA;
+  background-color: #001021;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14,15 +14,23 @@ body {
 }
 
 .hero-container {
-  width: 50vw;
-  height: 70vh;
-  background-color: #001021;
-  color: #fff;
+  width: 40vw;
+  height: 80vh;
+  background-color: #fff;
+  color: #000;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 5rem;
   flex-direction: column;
+  box-shadow: -10px 10px 5px rgba(0, 0, 0, 0.6);
+  transition: 0.4s;
+}
+.hero-container:hover {
+  transform: scale(1.01);
+}
+.hero-container h1 {
+  margin-bottom: 2rem;
 }
 .hero-container .links {
   margin-top: 5vh;
@@ -42,9 +50,16 @@ body {
   margin: 0 1rem;
 }
 .hero-container .links a:hover {
-  background-color: #fff;
-  color: #034748;
+  background-color: #027f82;
+  color: #fff;
+  transform: scale(1.1);
 }
 .hero-container main {
   width: 90%;
+}
+.hero-container main fieldset {
+  padding: 1rem 8px;
+}
+.hero-container main fieldset label {
+  padding: 16px 0;
 }/*# sourceMappingURL=contact.css.map */

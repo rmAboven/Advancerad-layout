@@ -12,7 +12,7 @@ $secondc: #001021;
 }
 
 body {
-    background-color: $mainc;
+    background-color: $secondc;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,15 +21,25 @@ body {
 }
 
 .hero-container {
-    width: 50vw;
-    height: 70vh;
-    background-color: $secondc;
-    color: #fff;
+    width: 40vw;
+    height: 80vh;
+    background-color: #fff;
+    color: #000;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 5rem;
     flex-direction: column;
+    box-shadow: -10px 10px 5px rgba(0, 0, 0, 0.6);
+    transition: 0.4s;
+    
+        &:hover {
+            transform: scale(1.01);
+        }
+
+            h1 {
+                margin-bottom: 2rem;
+            }
 
     .links {
         margin-top: 5vh;
@@ -47,17 +57,22 @@ body {
             border-radius: 3rem;
             transition: 500ms;
             margin: 0 1rem;
-
             &:hover {
-                background-color: #fff;
-                color: #034748;
+                background-color: #027f82;
+                color: #fff;
+                transform: scale(1.1);
             }
         }
     }
 
     main {
         width: 90%;
-        
-    }
+            fieldset {
+                padding: 1rem 8px;
 
+                label {
+                    padding: 16px 0;
+                }
+            }
+            }
 }
