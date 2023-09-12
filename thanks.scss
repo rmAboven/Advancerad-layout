@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+$main: #001021;
+
+body {
+    background-color: $main;
+
+    main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }§
+
+    .hero-container {
+        width: 40vw;
+        height: 80vh;
+        background-color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10rem;
+    }
+}
+

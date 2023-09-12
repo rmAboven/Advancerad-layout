@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 
+:root {
+    --main: #001021;
+}
+
+
 * {
     margin: 0;
     padding: 0;
@@ -11,13 +16,12 @@ html {
 
 body {
     font-family: 'Lato', sans-serif;
-    background-color: #1481BA;
+    background-color: #fff;
 }
 
 .navbar-container {
     width: 100vw;
     height: 30vh;
-    background-color: #001021;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,7 +29,7 @@ body {
 }
 
 .navbar-container h1 {
-    color: #fff;
+    color: var(--main);
 }
 
 .links {
@@ -37,16 +41,18 @@ body {
 .links a {
     text-decoration: none;
     color: white;
-    padding: 16px 32px;
-    background-color: #034748;
+    padding: 32px 64px;
+    background-color: var(--main);
     margin-left: 5vh;
     border-radius: 3rem;
     transition: 500ms;
+    font-size: 1.;
 }
 
 .links a:hover {
-    background-color: #fff;
-    color: #034748;
+    background-color: #003165;
+    color: #fff;
+    transform: scale(1.1);
 }
 
 section {
@@ -68,6 +74,7 @@ section {
 .dog p {
     width: 40vw;
     padding: 16px;
+    color: #000;
 }
 
 .fusion {
@@ -76,7 +83,7 @@ section {
 }
 
 h1, p {
-    color: #fff;
+    color: #000;
     padding: 5vh 0;
 }
 

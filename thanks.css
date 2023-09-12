@@ -1,0 +1,24 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #001021;
+}
+body main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body § .hero-container {
+  width: 40vw;
+  height: 80vh;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10rem;
+}/*# sourceMappingURL=thanks.css.map */
