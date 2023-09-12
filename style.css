@@ -77,6 +77,12 @@ section {
     color: #000;
 }
 
+.dog img {
+    width: 40vw;
+    height: auto;
+}
+
+
 .fusion {
     width: 50vw;
     padding: 16px;
@@ -103,7 +109,7 @@ p {
 }
 
 .fusion img {
-    width: 50vw;
+    width: 40vw;
     height: auto;
 }
 
@@ -121,3 +127,9 @@ footer img {
     transform: scale(0.6);
 }
 
+@media only screen and (max-width: 800px) {
+    section {
+        display: flex;
+        flex-direction: column;
+    }
+}

@@ -104,6 +104,8 @@ footer {
     align-items: center;
     justify-content: center;
     height: 10vh;
+    background-color: var(--main);
+    width: 100%;
 }
 
 .footer {
